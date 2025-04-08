@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <nav>
+        <a href="/assets/paginas/catalogo.html">Catálogo</a>
+        <a href="/assets/paginas/formulario.html">Formulário</a>
+        <a href="/assets/paginas/lista.html">Lista</a>
+        <a href="/assets/paginas/quemsomos.html">Quem Somos</a>
+        <a href="/assets/paginas/tabela.html">Tabela</a>
+        <a href="/index.html">Home Page</a>
+        <a href="/assets/paginas/login.html">Login</a>
+        </nav>
+
+    <main>
+        
+    <div class="qualquer">
+        <div class="main">
+            <h2>Dados Pessoais</h2>
+            <label>Cliente</label>
+            <input type="text" name="cliente" id="cliente">
+
+            <label>Telefone</label>
+            <input type="text" name="telefone" id="telefone">
+
+            <label>Email</label>
+            <input type="text" name="email" id="email">
+
+            <label>Endereço</label>
+            <input type="text" name="endereco" id="endereco">
+        </div>
+
+        <div class="coluna2">
+            <h2>Informações Adicionais</h2>
+            <label>Gênero</label>
+            <select>
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+            </select>
+
+            <label>Estado Civil</label><br>
+            <input type="radio" name="estado" value="Casado"> Casado<br>
+            <input type="radio" name="estado" value="Solteiro"> Solteiro<br>
+            <input type="radio" name="estado" value="Divorciado"> Divorciado
+        </div>
+
+        <div class="coluna3">
+            <h2>Como conheceu?</h2>
+            <input type="checkbox" name="info" value="tv"> Propaganda de TV<br>
+            <input type="checkbox" name="info" value="redes"> Redes Sociais<br>
+            <input type="checkbox" name="info" value="amigos"> Indicação de amigos<br>
+
+            <div class="btns">
+                <button name="enviar">Enviar</button>
+                <input type="reset" value="Limpar">
+            </div>
+        </div>
+    </div>
+
+</main>
+</body>
+</html>
